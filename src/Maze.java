@@ -13,5 +13,8 @@ public class Maze {
             System.out.println();
         }
     }
-}
 
+    public boolean[][] getGrid() {
+        return maze;
+    }
+}
